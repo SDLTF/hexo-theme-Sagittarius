@@ -1,0 +1,21 @@
+<div id="page">
+  <div class="article-header">
+    <h1><%=page.title%></h1>
+    <time>
+      <p>创立时间：<%= full_date(new Date()) %></p>
+    </time>
+    <tags>
+      <p>标签：<% page.tags.forEach(t => { %>
+      <a src="<%= url_for(t.path)%>"><kbd><%= t.name%></kbd></a>
+      <% });%></p>
+    </tags>
+  </div>
+  <div class="content">
+    <%-page.content%>
+  </div>
+
+</div>
+
+<div id="paginator">
+  <%-paginator()%>
+</div>

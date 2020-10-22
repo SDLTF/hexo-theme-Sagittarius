@@ -1,0 +1,50 @@
+.main {
+    margin-top: 100px;
+
+    #recent-posts {
+        width: 80%;
+        margin: 0 auto;
+
+        .recent-post-item {
+            margin: 0 auto;
+            display: block;
+            width: 60%;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-top: 35px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            transition: 0.3s linear;
+            &:hover {
+                box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.8);
+                a{
+                    color: convert(hexo-config('custom_color')) !important;
+                }
+            }
+            .recent-post-link a {
+                font-size: 30px;
+                display: inline-block;
+                color: black;
+                text-decoration: none;
+                transition: 0.3s linear;
+                margin-bottom: 20px;
+
+                &:hover {
+                    color: convert(hexo-config('custom_color')) !important;
+                }
+
+                &:visited {
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+
+            .recent-post-excerpt {
+                font-size: 16px;
+            }
+        }
+    }
+}

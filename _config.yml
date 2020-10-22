@@ -1,0 +1,50 @@
+# html lang
+language: zh-CN
+
+# main menu navigation
+menu:
+  📖主页: /
+  ⏰归档: /archives/
+  📂分类: /categories/
+  🔖标签: /tags/
+  🔗链接: /links/
+  👁‍🗨关于: /about/
+  📦知乎: https://www.zhihu.com/people/ltf-70-2
+
+website_title: 'SDLTF'
+blog_title: 'SDLTF'
+blog_title_size: 36px;
+
+home: '📖主页'
+archive: '⏰归档'
+tag: '🔖标签'
+link: '🔗链接'
+categorie: '📂分类'
+about: '👁‍🗨关于'
+
+custom_color: 'rgb(0,122,204)'
+toplab_background_color: 'rgba(255,255,255,0.8)'
+
+background_image:
+  enable: true
+  img_list:
+    - http://img.social/2020/10/09/f7bff356b2e23.png
+    - http://img.social/2020/10/09/7a83d5914ff4d.png
+    - http://img.social/2020/10/09/f3460e81fcad0.png
+    - http://img.social/2020/10/21/e3359414310ac.png
+    - http://img.social/2020/10/21/84290a3c42d52.png
+    - http://img.social/2020/10/21/760a4ec3076e3.png
+    - http://img.social/2020/10/21/fcc71bdaf6f28.png
+    - http://img.social/2020/10/21/fcc71bdaf6f28.png
+    - http://img.social/2020/10/21/00574c4bb2b27.png
+    
+# feature
+right_ad:
+  enable: false
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/Sagittarius.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/Sagittarius.js

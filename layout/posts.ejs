@@ -1,0 +1,22 @@
+<% if (page.posts.length > 0) { %>
+<div id="recent-posts">
+  <% page.posts.each(post => { %>
+  <div class="recent-post-item">
+    <div class="recent-post-link">
+      <a href="<%=url_for(post.path)%>"><%=post.title%></a>
+
+    </div>
+    <div class="recent-post-excerpt">
+      <%= strip_html(post.excerpt) %>
+    </div>
+  </div>
+
+  <% }); %>
+</div>
+<% } %>
+
+<% if (theme.right_ad.enable) { %>
+<div class="right_ad">
+
+</div>
+<% } %>

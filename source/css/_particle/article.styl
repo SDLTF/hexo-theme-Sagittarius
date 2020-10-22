@@ -1,0 +1,43 @@
+#page {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 80px;
+    min-height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-family: Ubuntu;
+    background-color: rgba(255,255,255,0.8)
+    .article-header {
+        display: inline-block;
+
+        h1 {
+            font-size: 36px;
+        }
+
+        time, tags {
+            color: grey;
+        }
+
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 95%
+        margin: 0 auto;
+        a {
+            padding-right: 20px;
+            display: inline-block;
+            color: convert(hexo-config('custom_color')) !important;
+            text-decoration: none;
+            transition: 0.3s linear;
+
+            &:visited {
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        
+    }
+}
