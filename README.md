@@ -85,16 +85,16 @@ scripts:
 
 本主题还未完成的功能：
 
--[] ``archives``，``categories``，``tag``页面的渲染
--[] 更丰富的选择
--[] ``lazy load``
--[] ``highlight`` 代码高亮
--[] ``Gitalk``、``Valine``、畅言 评论
--[] ``FancyBox`` 图片灯箱
--[] ``LeanCloud`` 统计访问量
--[] 支付宝、微信 打赏
--[] 相册页面，图片支持瀑布流加载
--[] 格言，可配合插件 hexo-plug-motto 实现动态格言
--[] 百度、CNZZ、谷歌 站长统计 及 SEO优化
--[] 定制 主题风格、CDN、埋点脚本、社交链接、版权说明 等
+- [ ] ``archives``，``categories``，``tag``页面的渲染
+- [ ] 更丰富的选择
+- [ ] ``lazy load``
+- [ ] ``highlight`` 代码高亮
+- [ ] ``Gitalk``、``Valine``、畅言 评论
+- [ ] ``FancyBox`` 图片灯箱
+- [ ] ``LeanCloud`` 统计访问量
+- [ ] 支付宝、微信 打赏
+- [ ] 相册页面，图片支持瀑布流加载
+- [ ] 格言，可配合插件 hexo-plug-motto 实现动态格言
+- [ ] 百度、CNZZ、谷歌 站长统计 及 SEO优化
+- [ ] 定制 主题风格、CDN、埋点脚本、社交链接、版权说明 等
 
