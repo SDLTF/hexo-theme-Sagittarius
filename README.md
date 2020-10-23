@@ -7,6 +7,7 @@
 ## 介绍 | introduce
 ``Sagittarius``是一个简洁大方的``hexo``主题，由[SDLTF](https://sdltf.info)开发。欢迎您的使用！
 
+QQ群：1161431755
 
 ## 使用 | use
 和其他的主题一样，您可以使用``git clone``使用这个主题
