@@ -1,0 +1,12 @@
+<% if (site.tags && site.tags.length){ %>
+<div class="tags">
+  <div class="list">
+    <h1>标签</h1>
+    <%- list_tags(site.tags, {
+      show_count: false,
+      class: 'article-tag'
+    }) %>
+    <% } %>
+  </div>
+
+</div>

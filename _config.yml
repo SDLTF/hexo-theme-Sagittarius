@@ -15,13 +15,6 @@ website_title: 'SDLTF'
 blog_title: 'SDLTF'
 blog_title_size: 36px;
 
-home: '📖主页'
-archive: '⏰归档'
-tag: '🔖标签'
-link: '🔗链接'
-categorie: '📂分类'
-about: '👁‍🗨关于'
-
 custom_color: 'rgb(0,122,204)'
 toplab_background_color: 'rgba(255,255,255,0.8)'
 
